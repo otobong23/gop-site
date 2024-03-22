@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens:{
+        "custom-lg": "1128px"
+      },
+      boxShadow: {
+        "customShadow": 'rgba(0, 0, 0, 0.12) 0px 2px 16px 0px'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
