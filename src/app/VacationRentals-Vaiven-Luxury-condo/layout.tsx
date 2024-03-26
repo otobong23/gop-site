@@ -12,7 +12,7 @@ export default function VacationRootLayout({children}:Readonly<{
          </header>
          {children}
 
-         <footer className="border-t border-[rgba(34,34,34,.15)]">
+         <footer className="border-t border-[rgba(34,34,34,.15)] bg-[rgb(247,247,247)]">
             <Footer />
          </footer>
       </section>

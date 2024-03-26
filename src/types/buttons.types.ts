@@ -6,3 +6,7 @@ export type ShareBtnTextType = {
 export type SaveBtnTextType = {
    HandleOnClick: () => void
 }
+export type SeeMoreTextType = {
+   HandleOnClick: () => void,
+   value?: boolean
+}
